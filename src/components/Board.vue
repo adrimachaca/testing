@@ -1,9 +1,20 @@
+<script>
+import Task from '@/components/Task.vue';
+
+export default {
+   components: {
+      Task
+   }
+}
+</script>
+
 <template>
    <div class="board">
       <div class="status-col">
          <div class="header-status">
             <h3 class="pill-todo">Todo</h3>
          </div>
+         <Task />
       </div>
       <div class="status-col">
          <div class="header-status">
