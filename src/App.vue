@@ -24,7 +24,7 @@ export default {
   </div>  
 </template>
 
-<style scoped>
+<style>
   .container {
     background-color: #f5f5f5;
     display: flex;

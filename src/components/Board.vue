@@ -1,9 +1,11 @@
 <script>
 import Task from '@/components/Task.vue';
+import AddTask from '@/components/AddTask.vue';
 
 export default {
    components: {
-      Task
+      Task,
+      AddTask
    }
 }
 </script>
@@ -15,6 +17,7 @@ export default {
             <h3 class="pill-todo">Todo</h3>
          </div>
          <Task />
+         <AddTask />
       </div>
       <div class="status-col">
          <div class="header-status">
