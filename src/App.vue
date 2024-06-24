@@ -21,9 +21,6 @@ export default {
       <Sidebar />
       <Board />
     </main>
-    <!-- <footer>
-      <h1>Esto es el footer</h1>
-    </footer> -->
   </div>  
 </template>
 

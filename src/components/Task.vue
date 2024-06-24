@@ -24,7 +24,6 @@
    }
 
    .task-dept {
-      border-bottom: 1px solid #e0e0e0;
       padding-bottom: 5px;
       margin-bottom: 10px;
    }
@@ -48,6 +47,7 @@
       border: none;
       margin-left: 15px;
       padding: 8px 10px;
+      cursor: pointer;
    }
 
    .edit-btn {
