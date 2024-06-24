@@ -1,7 +1,7 @@
 <template>
    <div class="brand-box">
       <img src="../assets/lsdfestival.png" alt="">
-      <h1>La Salle Dance Festival</h1>
+      <h1>LaSalle Dance Festival</h1>
    </div>
    <div class="header-icons">
       <div class="icon-box">

@@ -42,6 +42,7 @@ export default {
 <style scoped>
 
 .sidebar-items {
+   background-color: #f5f5f5;
    min-width: 270px;
    display: flex;
    flex-direction: column;

@@ -42,13 +42,13 @@ export default {
       border-radius: 10px;
       display: flex;
       flex-direction: row;
+      gap: 15px;
       box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
    }
 
    .status-col {
-      width: 33.33%;
+      width: 33%;
       padding: 20px;
-      margin: 10px;
       box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
       border-radius: 8px;
    }
@@ -77,5 +77,14 @@ export default {
       padding: 8px 20px;
       background-color: #cff5d1;
       border-radius: 7px;
+   }
+
+   @media (max-width: 1275px) {
+      .board {
+         flex-direction: column;
+      }
+      .status-col {
+         width: 100%;
+      }
    }
 </style>
