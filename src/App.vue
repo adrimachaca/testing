@@ -19,7 +19,7 @@ export default {
     </header>
     <main>
       <Sidebar />
-      <!-- <Board /> -->
+      <Board />
     </main>
     <!-- <footer>
       <h1>Esto es el footer</h1>
@@ -36,6 +36,7 @@ export default {
   }
 
   header {
+    background-color: #fff;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -46,6 +47,7 @@ export default {
   }
 
   main {
+    padding: 20px;
     width: 100%;
     height: 100%;
     display: flex;

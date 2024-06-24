@@ -1,9 +1,16 @@
 <template>
-   <h1>Esto es el Board</h1>
+   <div class="board">
+      <h1>Board</h1>
+   </div>
 </template>
 
 <style scoped>
-h1 {
-   background-color: lightseagreen;
-}
+   .board {
+      background-color: #fff;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      margin-left: 20px;
+      border-radius: 10px;
+   }
 </style>

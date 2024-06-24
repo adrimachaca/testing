@@ -42,11 +42,13 @@ export default {
 <style scoped>
 
 .sidebar-items {
+   min-width: 270px;
    display: flex;
    flex-direction: column;
    align-items: left;
    padding: 10px 0;
    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+   border-radius: 10px;
 }
 
 .sidebar-items h3 {
