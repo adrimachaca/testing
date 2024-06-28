@@ -5,20 +5,21 @@ export default {
    data() {
       return {
          homeElements: [
-            { id: 'dashboard', title: 'Dashboard', icon: 'pi-home' },
-            { id: 'team', title: 'Team', icon: 'pi-users' },
-            { id: 'messages', title: 'Messages', icon: 'pi-inbox' },
-            { id: 'calendar', title: 'Calendar', icon: 'pi-calendar' },
-            { id: 'reports', title: 'Reports', icon: 'pi-file' }
+            { id: 'dashboard', title: 'Dashboard', icon: 'pi-home', to: '/' },
+            { id: 'profile', title: 'Profile', icon: 'pi-user', to: '/' },
+            { id: 'team', title: 'Team', icon: 'pi-users', to: '/' },
+            { id: 'messages', title: 'Messages', icon: 'pi-inbox', to: '/' },
+            { id: 'calendar', title: 'Calendar', icon: 'pi-calendar', to: '/' },
+            { id: 'reports', title: 'Reports', icon: 'pi-file', to: '/' }
          ],
          departments: [
-            { id: 'alldepartments', title: 'All Departments', icon: 'pi-sitemap' },
-            { id: 'artistbookings', title: 'Artist Bookings', icon: 'pi-headphones' },
-            { id: 'gastronomy', title: 'Gastronomy', icon: 'pi-shop' },
-            { id: 'legalSecurityControl', title: 'Legal, Security & Control', icon: 'pi-shield' },
-            { id: 'marketing', title: 'Marketing & Sponsors', icon: 'pi-volume-up' },
-            { id: 'ticketing', title: 'Ticketing and Pre-sale ', icon: 'pi-receipt' },
-            { id: 'stageEquipment', title: 'Stage & Equipment', icon: 'pi-sliders-v' }
+            { id: 'alldepartments', title: 'All Departments', icon: 'pi-sitemap', to: '/all-departments' },
+            { id: 'artistbookings', title: 'Artist Bookings', icon: 'pi-headphones', to: '/artistbookings' },
+            { id: 'gastronomy', title: 'Gastronomy', icon: 'pi-shop', to: '/gastronomy' },
+            { id: 'legalSecurityControl', title: 'Legal, Security & Control', icon: 'pi-shield', to: '/legal-security-control' },
+            { id: 'marketing', title: 'Marketing & Sponsors', icon: 'pi-volume-up', to: '/marketing' },
+            { id: 'ticketing', title: 'Ticketing and Pre-sale ', icon: 'pi-receipt', to: '/ticketing'},
+            { id: 'stageEquipment', title: 'Stage & Equipment', icon: 'pi-sliders-v', to: '/stage-equipment' }
          ]
       };
    },
